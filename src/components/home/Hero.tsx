@@ -3,7 +3,7 @@ export function Hero() {
     <div className="relative pt-20">
       <div className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
-          <img src="components/home/images/塩洞窟.JPEG"
+          <img src="/home/images/塩洞窟.JPEG"
             alt="塩洞窟"
             className="w-full h-full object-cover"
           />
