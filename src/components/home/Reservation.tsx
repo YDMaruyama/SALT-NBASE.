@@ -49,7 +49,7 @@ export function Reservation() {
                       空き状況の確認や希望の日時の指定が簡単に行えます。
                     </p>
                     <a 
-                      href="https://app.aitemasu.me/u/saltnbase/yoyaku"
+                      href="https://app.aitemasu.me/u/saltnbase/01"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 bg-sage-600 text-white px-4 py-2 rounded-md text-sm hover:bg-sage-700 transition-colors"
