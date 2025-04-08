@@ -3,9 +3,8 @@ export function Hero() {
     <div className="relative pt-20">
       <div className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src="components/home/images/塩洞窟.JPEG"
-            alt="Zen garden"
+          <img src="components/home/images/塩洞窟.JPEG"
+            alt="塩洞窟"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/20"></div>
