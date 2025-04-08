@@ -24,7 +24,7 @@ export function Initiatives() {
     {
       title: "部活 =遊び体験",
       description: "大人たちが本気で取り組み、本気で遊ぶための場所・コミュニティーを提供します.独身会、ワイン会、スーパーカーの会など、さまざまな部活やイベントを通じて、健康と楽しみの両立を実現します.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=1920",
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_1601.JPG?raw=true",
       icon: Heart
     },
     {
