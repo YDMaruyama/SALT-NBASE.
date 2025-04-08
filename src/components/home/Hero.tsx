@@ -4,7 +4,7 @@ export function Hero() {
       <div className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="dist/asssets/塩洞窟.JPGE"
+            src="components/home/images/塩洞窟.JPEG"
             alt="Zen garden"
             className="w-full h-full object-cover"
           />
