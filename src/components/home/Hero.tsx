@@ -4,7 +4,7 @@ export function Hero() {
       <div className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=2070"
+            src="dist/asssets/塩洞窟.JPGE"
             alt="Zen garden"
             className="w-full h-full object-cover"
           />
