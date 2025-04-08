@@ -3,7 +3,7 @@ export function Hero() {
     <div className="relative pt-20">
       <div className="relative h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/%E5%A1%A9%E6%B4%9E%E7%AA%9F.JPEG"
+          <img src="/src/components/home/images/塩洞窟.JPEG"
             alt="塩洞窟"
             className="w-full h-full object-cover"
           />
