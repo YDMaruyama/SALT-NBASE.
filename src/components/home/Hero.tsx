@@ -30,8 +30,10 @@ export function Hero() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center gap-8">
             <span className="text-sage-600 font-medium">NEWS</span>
-            <span className="text-natural-600">2024.04.18</span>
-            <span className="text-natural-800">新メニュー「チベット漢方蒸し」導入のお知らせ</span>
+            <span className="text-natural-600">2025.04.06</span>
+            <span className="text-natural-800">GRAND OPENのお知らせ</span>
+            <span className="text-natural-600">2025.04.09</span>
+            <span className="text-natural-800">オープニングレセプション開催のお知らせ</span>
           </div>
         </div>
       </div>
