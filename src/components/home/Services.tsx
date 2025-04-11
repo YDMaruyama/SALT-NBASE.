@@ -1,4 +1,4 @@
-import { Sparkles, Brain, Cloud, Mountain, Salad, Dumbbell, Heart, Flower2, Wind, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Mountain, Wind, Salad, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -9,67 +9,22 @@ export function Services() {
 
   const planAServices = [
     {
-      icon: Sparkles,
-      title: "ドライヘッドスパとフェイシャルマッサージ",
-      description: "頭部と顔のケアを通じ、リラクゼーションと血行促進を実現。ストレス軽減、肌の引き締めや集中力向上に効果が期待されます。",
-      image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=1920"
-    },
-    {
-      icon: Brain,
-      title: "チベット医学療法",
-      description: "古来のチベット伝統に基づくアプローチで、体内のエネルギーバランスを整え、自己治癒力を引き出します。",
-      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=1920"
-    },
-    {
-      icon: Cloud,
-      title: "チベット漢方蒸し",
-      description: "蒸気と漢方の力を融合した温熱療法。漢方成分を含む蒸気が体内に染み込み、老廃物の排出とデトックス、血行促進とリラクゼーションを促します。",
-      image: "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&q=80&w=1920"
-    },
-    {
       icon: Mountain,
-      title: "浄化瞑想塩洞窟",
-      description: "自然の塩のミネラル効果と瞑想による静寂な空間が融合。塩の浄化作用で呼吸器や皮膚の健康をサポートし、心身のバランスを整え、深いリラクゼーションをもたらします。",
+      title: "天然塩洞窟でのデトックス瞑想",
+      description: "天然岩塩から放出されるマイナスイオンで深いリラックス効果を体験。専門インストラクターによる呼吸法・瞑想ガイダンスのもと、最適温度・湿度管理された快適空間で施術を行います。",
       image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=1920"
-    },
-    {
-      icon: Salad,
-      title: "食事療法",
-      description: "100年以上続く老舗の豆腐専門店が手がける無農薬有機大豆料理をはじめ、グルテンフリーを基本に腸内環境を改善する腸活・排毒料理を提供します。鉄や銅など調理器具にもこだわり、内側からの美と健康を促進する食事をお楽しみいただけます。",
-      image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=1920"
-    },
-    {
-      icon: Dumbbell,
-      title: "排毒運動レッスン",
-      description: "軽い運動で体内の血流循環を促進し、毒素の排出をサポート。健康的な体内環境の維持に寄与します。",
-      image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=1920"
-    }
-  ];
-
-  const planBServices = [
-    {
-      icon: Heart,
-      title: "深部リンパマッサージ",
-      description: "筋肉の深部に働きかけ、リンパの流れを促進。老廃物の排出を助け、むくみ軽減や免疫力向上に貢献する施術です。",
-      image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&q=80&w=1920"
-    },
-    {
-      icon: Flower2,
-      title: "ヘッドスパ",
-      description: "頭皮を中心としたケアで、血行促進とリラクゼーション効果を実感。頭部の爽快感とともに、精神的なリフレッシュが期待されます。",
-      image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=1920"
     },
     {
       icon: Wind,
-      title: "排毒運動",
-      description: "軽い運動を取り入れ、体内の血流循環を促進。体内の毒素排出をサポートし、健康維持を目指します。",
-      image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=1920"
+      title: "循環デトックスセッション",
+      description: "初心者でも簡単な専用デトックス棒によるセルフケア指導と、デトックス効果を高める呼吸法レッスンを提供。老廃物排出を促す特別マッサージ技法で、体内浄化を促進します。",
+      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=1920"
     },
     {
-      icon: Mountain,
-      title: "浄化瞑想洞窟",
-      description: "自然の塩を利用した静寂な瞑想空間。心身をリセットし、深いリラクゼーションと浄化効果を提供します。",
-      image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=1920"
+      icon: Salad,
+      title: "オーガニック薬膳料理",
+      description: "創業100年以上の豆腐専門店による無農薬有機大豆料理を提供。デトックス効果を高める薬膳メニューと、季節の食材を活かした豊富な料理内容で、体の内側からの浄化をサポートします。",
+      image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=1920"
     }
   ];
 
@@ -237,14 +192,8 @@ export function Services() {
         
         {/* Plan A */}
         <div className="mb-16">
-          <h3 className="text-2xl font-serif mb-12 text-center text-natural-700">浄化瞑想塩洞窟排毒プラン</h3>
+          <h3 className="text-2xl font-serif mb-12 text-center text-natural-700">心と体を浄化する塩洞窟デトックスプログラム</h3>
           <ServiceList services={planAServices} />
-        </div>
-
-        {/* Plan B */}
-        <div>
-          <h3 className="text-2xl font-serif mb-12 text-center text-natural-700">深部リンパマッサージ排毒プラン</h3>
-          <ServiceList services={planBServices} />
         </div>
       </div>
     </section>

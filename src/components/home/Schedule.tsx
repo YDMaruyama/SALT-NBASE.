@@ -1,88 +1,78 @@
+import { Clock, Shirt, Users } from 'lucide-react';
+
 export function Schedule() {
   return (
-    <section className="py-10 bg-sage-50/50 px-4 md:px-8">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-serif text-center mb-12 text-sage-800">1日のプラン概要</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Plan A */}
-          <div>
-            <p className="text-xl text-sage-600 font-medium text-center mb-6">浄化瞑想塩洞窟排毒プラン</p>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <div className="space-y-4">
-                <div className="grid grid-cols-[120px_1fr] gap-4">
-                  <div className="text-right font-medium text-natural-500">10:00 - 11:00</div>
-                  <div className="border-l-4 border-sage-400 pl-4 pb-8">
-                    <h4 className="font-semibold text-natural-800">ドライヘッドスパ</h4>
-                    <p className="text-sm text-natural-600">個別施術</p>
-                  </div>
+    <section className="py-16 bg-sage-50/50 px-4 md:px-8">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl font-serif text-center mb-6 text-sage-800">心と体を癒す浄化瞑想塩洞窟体験プラン</h2>
+        <p className="text-center text-natural-700 mb-12">2.5時間のトータルケアで、心と体の真の調和を体験</p>
 
-                  <div className="text-right font-medium text-natural-500">11:00 - 12:00</div>
-                  <div className="border-l-4 border-sage-400 pl-4 pb-8">
-                    <h4 className="font-semibold text-natural-800">フェイシャルマッサージ</h4>
-                    <p className="text-sm text-natural-600">個別施術</p>
+        <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+          <div className="p-8">
+            {/* Time Schedule */}
+            <div className="mb-8">
+              <h3 className="text-xl font-serif text-sage-800 mb-6 flex items-center gap-2">
+                <Clock className="w-5 h-5 text-sage-600" />
+                タイムスケジュール
+              </h3>
+              <div className="space-y-8">
+                <div className="grid md:grid-cols-[150px_1fr] gap-4">
+                  <div className="text-sage-600 font-medium">10:30-11:10</div>
+                  <div>
+                    <h4 className="font-medium text-natural-800 mb-2">塩洞窟でのデトックス瞑想（40分）</h4>
+                    <ul className="space-y-2 text-natural-700 text-sm">
+                      <li>• 天然岩塩に囲まれた洞窟で、マイナスイオンを浴びながら深いリラックス瞑想</li>
+                      <li>• 呼吸法と瞑想のガイダンス付き</li>
+                      <li>• 快適な温度と湿度で心地よい空間</li>
+                    </ul>
                   </div>
+                </div>
 
-                  <div className="text-right font-medium text-natural-500">12:00 - 13:15</div>
-                  <div className="border-l-4 border-sage-400 pl-4 pb-8">
-                    <h4 className="font-semibold text-natural-800">ランチタイム</h4>
-                    <p className="text-sm text-natural-600">精進料理・オーガニックメニュー</p>
+                <div className="grid md:grid-cols-[150px_1fr] gap-4">
+                  <div className="text-sage-600 font-medium">11:15-12:00</div>
+                  <div>
+                    <h4 className="font-medium text-natural-800 mb-2">循環排毒法（45分）</h4>
+                    <ul className="space-y-2 text-natural-700 text-sm">
+                      <li>• 誰でも簡単に扱える排毒棒を使用したセルフマッサージ法が学べる</li>
+                      <li>• 深い呼吸法で体内浄化</li>
+                    </ul>
                   </div>
+                </div>
 
-                  <div className="text-right font-medium text-natural-500">13:15 - 14:00</div>
-                  <div className="border-l-4 border-sage-400 pl-4 pb-8">
-                    <h4 className="font-semibold text-natural-800">排毒運動レッスン</h4>
-                    <p className="text-sm text-natural-600">グループセッション</p>
-                  </div>
-
-                  <div className="text-right font-medium text-natural-500">14:00 - 15:00</div>
-                  <div className="border-l-4 border-sage-400 pl-4 pb-8">
-                    <h4 className="font-semibold text-natural-800">チベット漢方薬マッサージ</h4>
-                    <p className="text-sm text-natural-600">個別施術</p>
-                  </div>
-
-                  <div className="text-right font-medium text-natural-500">15:00 - 16:00</div>
-                  <div className="border-l-4 border-sage-400 pl-4">
-                    <h4 className="font-semibold text-natural-800">チベット漢方薬蒸し</h4>
-                    <p className="text-sm text-natural-600">個別施術</p>
+                <div className="grid md:grid-cols-[150px_1fr] gap-4">
+                  <div className="text-sage-600 font-medium">12:00-13:00</div>
+                  <div>
+                    <h4 className="font-medium text-natural-800 mb-2">お食事（60分）</h4>
+                    <p className="text-natural-700 text-sm">
+                      100年以上続く、豆腐専門手が作る種類豊富な無農薬有機大豆料理
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* Plan B */}
-          <div>
-            <p className="text-xl text-sage-600 font-medium text-center mb-6">深部リンパマッサージ排毒プラン</p>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <div className="space-y-4">
-                <div className="grid grid-cols-[120px_1fr] gap-4">
-                  <div className="text-right font-medium text-natural-500">10:15 - 11:00</div>
-                  <div className="border-l-4 border-sage-400 pl-4 pb-8">
-                    <h4 className="font-semibold text-natural-800">排毒運動</h4>
-                    <p className="text-sm text-natural-600">グループセッション</p>
-                    <p className="text-xs text-natural-600 mt-1">軽い運動を取り入れて、体内の血流循環を促進し、毒素の排出をサポート</p>
-                  </div>
+            {/* Additional Information */}
+            <div className="border-t border-sage-100 pt-8">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-serif text-sage-800 mb-4 flex items-center gap-2">
+                    <Shirt className="w-5 h-5 text-sage-600" />
+                    ご参加に際して
+                  </h3>
+                  <ul className="space-y-2 text-natural-700 text-sm">
+                    <li>• 動きやすい服装でお越しください</li>
+                    <li>• ヨガマットは無料貸出あり</li>
+                  </ul>
+                </div>
 
-                  <div className="text-right font-medium text-natural-500">11:00 - 12:00</div>
-                  <div className="border-l-4 border-sage-400 pl-4 pb-8">
-                    <h4 className="font-semibold text-natural-800">深部リンパマッサージ</h4>
-                    <p className="text-sm text-natural-600">個別施術</p>
-                    <p className="text-xs text-natural-600 mt-1">筋肉の深部に働きかけ、リンパの流れを促進する1時間の施術</p>
-                  </div>
-
-                  <div className="text-right font-medium text-natural-500">12:00 - 12:30</div>
-                  <div className="border-l-4 border-sage-400 pl-4 pb-8">
-                    <h4 className="font-semibold text-natural-800">ヘッドスパ</h4>
-                    <p className="text-sm text-natural-600">個別施術</p>
-                    <p className="text-xs text-natural-600 mt-1">頭皮のケアを中心に、血行促進とリラクゼーション効果を実感</p>
-                  </div>
-
-                  <div className="text-right font-medium text-natural-500">12:40 - 13:20</div>
-                  <div className="border-l-4 border-sage-400 pl-4">
-                    <h4 className="font-semibold text-natural-800">浄化瞑想洞窟</h4>
-                    <p className="text-sm text-natural-600">個別体験</p>
-                    <p className="text-xs text-natural-600 mt-1">自然の塩を利用した静寂な瞑想空間で、心身をリセットする体験</p>
-                  </div>
+                <div>
+                  <h3 className="text-lg font-serif text-sage-800 mb-4 flex items-center gap-2">
+                    <Users className="w-5 h-5 text-sage-600" />
+                    参加条件
+                  </h3>
+                  <p className="text-natural-700 text-sm">
+                    お一人様から参加可能です
+                  </p>
                 </div>
               </div>
             </div>
