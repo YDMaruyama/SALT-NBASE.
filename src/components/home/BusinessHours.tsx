@@ -20,26 +20,7 @@ export function BusinessHours() {
                 <td className="py-4 px-6 text-natural-800">イベント・部活のみ</td>
               </tr>
               <tr className="hover:bg-sage-50 transition-colors">
-                <td className="py-4 px-6 text-natural-800">火曜日</td>
-                <td className="py-4 px-6 text-natural-800">10:00～18:00</td>
-                <td className="py-4 px-6 text-natural-800">深部リンパマッサージ排毒プラン</td>
-              </tr>
-              <tr className="hover:bg-sage-50 transition-colors">
-                <td className="py-4 px-6 text-natural-800">水曜日</td>
-                <td className="py-4 px-6 text-natural-800">10:00～18:00</td>
-                <td className="py-4 px-6 text-natural-800">浄化瞑想塩洞窟排毒プラン</td>
-              </tr>
-              <tr className="hover:bg-sage-50 transition-colors bg-natural-50">
-                <td className="py-4 px-6 text-natural-800 font-medium">木曜日</td>
-                <td className="py-4 px-6 text-natural-800" colSpan={2}>休業日</td>
-              </tr>
-              <tr className="hover:bg-sage-50 transition-colors">
-                <td className="py-4 px-6 text-natural-800">金曜日</td>
-                <td className="py-4 px-6 text-natural-800">10:00～18:00</td>
-                <td className="py-4 px-6 text-natural-800">浄化瞑想塩洞窟排毒プラン</td>
-              </tr>
-              <tr className="hover:bg-sage-50 transition-colors">
-                <td className="py-4 px-6 text-natural-800">土曜日</td>
+                <td className="py-4 px-6 text-natural-800">火曜日〜土曜日</td>
                 <td className="py-4 px-6 text-natural-800">10:00～18:00</td>
                 <td className="py-4 px-6 text-natural-800">深部リンパマッサージ排毒プラン</td>
               </tr>
