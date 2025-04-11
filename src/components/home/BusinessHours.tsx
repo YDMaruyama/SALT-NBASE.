@@ -19,11 +19,13 @@ export function BusinessHours() {
                 <td className="py-4 px-6 text-natural-800">10:00～18:00</td>
                 <td className="py-4 px-6 text-natural-800">イベント・部活のみ</td>
               </tr>
+
               <tr className="hover:bg-sage-50 transition-colors">
-                <td className="py-4 px-6 text-natural-800">火曜日〜土曜日</td>
+                <td className="py-4 px-6 text-natural-800">火曜日~土曜日</td>
                 <td className="py-4 px-6 text-natural-800">10:00～18:00</td>
-                <td className="py-4 px-6 text-natural-800">深部リンパマッサージ排毒プラン</td>
+                <td className="py-4 px-6 text-natural-800">排毒体験プラン</td>
               </tr>
+            
               <tr className="hover:bg-sage-50 transition-colors">
                 <td className="py-4 px-6 text-natural-800">日曜日</td>
                 <td className="py-4 px-6 text-natural-800">10:00～18:00</td>
