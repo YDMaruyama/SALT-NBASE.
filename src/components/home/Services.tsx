@@ -18,7 +18,7 @@ export function Services() {
       icon: Wind,
       title: "循環デトックスセッション",
       description: "初心者でも簡単な専用デトックス棒によるセルフケア指導と、デトックス効果を高める呼吸法レッスンを提供。老廃物排出を促す特別マッサージ技法で、体内浄化を促進します。",
-      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_1959.jpeg?raw=true"
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_1955%202.jpeg?raw=true"
     },
     {
       icon: Salad,
