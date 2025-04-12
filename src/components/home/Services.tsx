@@ -12,19 +12,19 @@ export function Services() {
       icon: Mountain,
       title: "天然塩洞窟でのデトックス瞑想",
       description: "天然岩塩から放出されるマイナスイオンで深いリラックス効果を体験。専門インストラクターによる呼吸法・瞑想ガイダンスのもと、最適温度・湿度管理された快適空間で施術を行います。",
-      image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=1920"
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_2282%202.jpeg?raw=true"
     },
     {
       icon: Wind,
       title: "循環デトックスセッション",
       description: "初心者でも簡単な専用デトックス棒によるセルフケア指導と、デトックス効果を高める呼吸法レッスンを提供。老廃物排出を促す特別マッサージ技法で、体内浄化を促進します。",
-      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=1920"
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_1959.jpeg?raw=true"
     },
     {
       icon: Salad,
       title: "オーガニック薬膳料理",
       description: "創業100年以上の豆腐専門店による無農薬有機大豆料理を提供。デトックス効果を高める薬膳メニューと、季節の食材を活かした豊富な料理内容で、体の内側からの浄化をサポートします。",
-      image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=1920"
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_2284.JPG?raw=true"
     }
   ];
 
