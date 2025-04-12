@@ -24,7 +24,7 @@ export function Initiatives() {
     {
       title: "コミュニティーサークル",
       description: "大人たちが本気で取り組み、本気で遊ぶための場所・コミュニティーを提供します.独身会、ワイン会、スーパーカーの会など、さまざまな部活やイベントを通じて、健康と楽しみの両立を実現します.",
-      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_1601.JPG?raw=true",
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/MG_1601.JPG?raw=true",
       icon: Heart
     },
     {
@@ -36,7 +36,7 @@ export function Initiatives() {
     {
       title: "腸内活性料理",
       description: " 100年以上続く老舗の豆腐専門店が誇る無農薬有機大豆料理をはじめ、腸内環境の整備に重点を置いた精進料理をベースに提供します.調理器具にもこだわり、テフロン加工不使用・グルテンフリーが基本です.健康的な食生活をサポートし、内側からの美と健康を促進します.",
-      image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=1920",
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_2284.JPG?raw=true",
       icon: Users
     }
   ];
