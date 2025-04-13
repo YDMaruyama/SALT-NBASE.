@@ -13,7 +13,7 @@ export function Schedule() {
             <div className="mb-8">
               <h3 className="text-xl font-serif text-sage-800 mb-6 flex items-center gap-2">
                 <Clock className="w-5 h-5 text-sage-600" />
-                タイムスケジュール
+                タイムスケジュール（例）
               </h3>
               <div className="space-y-8">
                 <div className="grid md:grid-cols-[150px_1fr] gap-4">
@@ -31,7 +31,7 @@ export function Schedule() {
                 <div className="grid md:grid-cols-[150px_1fr] gap-4">
                   <div className="text-sage-600 font-medium">11:15-12:00</div>
                   <div>
-                    <h4 className="font-medium text-natural-800 mb-2">循環排毒法（45分）</h4>
+                    <h4 className="font-medium text-natural-800 mb-2">循環排毒体操（45分）</h4>
                     <ul className="space-y-2 text-natural-700 text-sm">
                       <li>• 誰でも簡単に扱える排毒棒を使用したセルフマッサージ法が学べる</li>
                       <li>• 深い呼吸法で体内浄化</li>
