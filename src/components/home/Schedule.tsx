@@ -19,7 +19,7 @@ export function Schedule() {
                 <div className="grid md:grid-cols-[150px_1fr] gap-4">
                   <div className="text-sage-600 font-medium">10:30-11:10</div>
                   <div>
-                    <h4 className="font-medium text-natural-800 mb-2">塩洞窟でのデトックス瞑想（40分）</h4>
+                    <h4 className="font-medium text-natural-800 mb-2">塩洞窟での浄化拝毒瞑想（40分）</h4>
                     <ul className="space-y-2 text-natural-700 text-sm">
                       <li>• 天然岩塩に囲まれた洞窟で、マイナスイオンを浴びながら深いリラックス瞑想</li>
                       <li>• 呼吸法と瞑想のガイダンス付き</li>
