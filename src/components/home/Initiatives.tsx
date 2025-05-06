@@ -21,7 +21,7 @@ export function Initiatives() {
     {
       title: "浄化瞑想塩洞窟",
       description: "浄化作用の高い、自然岩塩と海塩をバランスよく配合した塩洞窟が、瞑想に入りやすい環境を作り出します。天然塩のエアロゾルが気道に入り、気管支の粘膜に作用し、呼吸器系の排毒に良いとされています。遮断された空間で導入瞑想を行うことで、瞑想が苦手な方でもプロの誘導によりネガティブをポジティブに変えていく極上の瞑想体験が可能となり、マインドフルネスで精神の排毒も行えます。",
-      image: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&q=80&w=1920",
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_2282%202.jpeg?raw=true",
       icon: Leaf
     },
     {
