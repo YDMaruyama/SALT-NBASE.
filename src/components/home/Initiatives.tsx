@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, useInView, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
 import { Leaf, Heart, Globe, Users, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -12,7 +12,6 @@ interface Initiative {
 
 export function Initiatives() {
   const sectionRef = useRef(null);
-  const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [direction, setDirection] = useState(0);
