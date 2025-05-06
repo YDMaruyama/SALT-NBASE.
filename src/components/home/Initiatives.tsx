@@ -27,21 +27,19 @@ export function Initiatives() {
     {
       title: "コミュニティースペース",
       description: "大人が思い切り遊べるコミュニティーとスペースを作りました！イベントや多種多様な趣味を広げる場としてご利用ください。ご希望により飲食・施術などの提供にも応じます。健康と楽しみの両立が実現できる隠れ家的なスペースで気の合う仲間でワイワイと過ごす時間を思い切り楽しんでみませんか？",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=1920",
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/MG_1601.JPG?raw=true",
       icon: Heart
     },
     {
       title: "チベット医学療法",
       description: "チベット医学は約2500年の歴史を持つ伝統医療で、古来インドのアーユルヴェーダや中国医学の影響を受けつつ独自に発展しました。SALT'NBASE.は、チベット漢方蒸しをはじめ、チベット現地から直輸入したオイルを使用しています。現地から直輸入した天然100%のチベット漢方薬から抽出したオイルを使用し、皮膚から直接浸透させることで血液や体液の循環を活性化します。",
-      image: "https://images.unsplash.com/photo-1507904953637-96429b49d9f5?auto=format&fit=crop&q=80&w=1920",
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_2309.jpeg?raw=true",
       icon: Globe
     },
     {
       title: "腸内活性料理",
-      description: "100年以上続く老舗の豆腐専門店が誇る無農薬有機大豆料理をはじめ、腸内環境の整備に重点を置いた精進料理をベースに提供します。調理器具にもこだわり、テフロン加工不使用・グルテンフリーが基本です。健康的な食生活をサポートし、内側からの美と健康を促進します。",
-      image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=1920",
-      icon: Users
-    }
+      description: "腸内環境の整備に重点を置いた精進料理をベースに提供します。調理器具にもこだわり、テフロン加工不使用・グルテンフリーが基本です。健康的な食生活をサポートし、内側からの美と健康を促進します。",
+      image: "https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_2284.JPG?raw=true”}
   ];
 
   const nextSlide = () => {
