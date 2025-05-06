@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
 import { Leaf, Heart, Globe, Users, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -12,6 +12,7 @@ interface Initiative {
 
 export function Initiatives() {
   const sectionRef = useRef(null);
+  const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [direction, setDirection] = useState(0);
@@ -91,7 +92,7 @@ export function Initiatives() {
         
         <div className="relative">
           <div 
-            className="relative min-h-[400px] pb-8"
+            className="relative min-h-[400px]"
             onMouseEnter={() => setIsAutoPlaying(false)}
             onMouseLeave={() => setIsAutoPlaying(true)}
           >
@@ -158,23 +159,23 @@ export function Initiatives() {
                 <ChevronRight className="w-6 h-6 text-sage-600" />
               </button>
             </div>
+          </div>
 
-            <div className="absolute bottom-0 left-0 right-0 flex justify-center gap-2">
-              {initiatives.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => {
-                    setDirection(index > currentIndex ? 1 : -1);
-                    setCurrentIndex(index);
-                    setIsAutoPlaying(false);
-                  }}
-                  className={`w-2.5 h-2.5 rounded-full transition-colors ${
-                    index === currentIndex ? 'bg-sage-600' : 'bg-sage-200 hover:bg-sage-300'
-                  }`}
-                  aria-label={`Go to initiative ${index + 1}`}
-                />
-              ))}
-            </div>
+          <div className="flex justify-center gap-2 mt-8 relative z-20">
+            {initiatives.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => {
+                  setDirection(index > currentIndex ? 1 : -1);
+                  setCurrentIndex(index);
+                  setIsAutoPlaying(false);
+                }}
+                className={`w-3 h-3 rounded-full transition-colors ${
+                  index === currentIndex ? 'bg-sage-600' : 'bg-sage-200 hover:bg-sage-300'
+                }`}
+                aria-label={`Go to initiative ${index + 1}`}
+              />
+            ))}
           </div>
         </div>
       </div>
