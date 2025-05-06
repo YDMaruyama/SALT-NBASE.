@@ -1,4 +1,4 @@
-import { Calendar, MessageCircle, ExternalLink } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 export function Reservation() {
   return (
@@ -14,10 +14,7 @@ export function Reservation() {
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-serif text-sage-800 mb-3 flex items-center gap-2">
-                  <Calendar className="w-5 h-5" />
-                  ご予約方法
-                </h3>
+                <h3 className="text-xl font-serif text-sage-800 mb-3">ご予約方法</h3>
                 <div className="space-y-4 text-natural-700">
                   <div className="bg-[#00B900]/10 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-2">
@@ -36,26 +33,6 @@ export function Reservation() {
                     >
                       <MessageCircle className="w-4 h-4" />
                       LINEで予約する
-                    </a>
-                  </div>
-
-                  <div className="bg-sage-50 p-4 rounded-lg">
-                    <div className="flex items-center gap-2 mb-2">
-                      <ExternalLink className="w-5 h-5 text-sage-600" />
-                      <span className="font-medium">アイテマス予約システム</span>
-                    </div>
-                    <p className="text-sm mb-2">
-                      アイテマスの予約システムからも24時間いつでもご予約いただけます。
-                      空き状況の確認や希望の日時の指定が簡単に行えます。
-                    </p>
-                    <a 
-                      href="https://app.aitemasu.me/u/saltnbase/01"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 bg-sage-600 text-white px-4 py-2 rounded-md text-sm hover:bg-sage-700 transition-colors"
-                    >
-                      <Calendar className="w-4 h-4" />
-                      アイテマスで予約する
                     </a>
                   </div>
                 </div>
