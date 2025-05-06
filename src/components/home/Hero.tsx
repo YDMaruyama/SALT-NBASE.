@@ -11,7 +11,7 @@ export function Hero() {
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1701197705054-0d3b2d97a8c7?auto=format&fit=crop&q=80&w=1920"
+            src="https://https://github.com/YDMaruyama/SALT-NBASE./blob/main/images/IMG_2282%202.jpeg?raw=true"
             alt="塩洞窟 - Salt Cave Meditation Space"
             className="w-full h-full object-cover object-center"
             loading="eager"
